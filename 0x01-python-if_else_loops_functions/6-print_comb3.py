@@ -2,12 +2,12 @@
 
 for x in range(0, 10):
 
-   for y in range(x + 1, 10):
+    for y in range(x + 1, 10):
 
-      if (not (x == 8 and y == 9)):
+        if (not (x == 8 and y == 9)):
 
-         print("{}{}".format(x, y), end=", ")
+            print("{}{}".format(x, y), end=", ")
 
-      else:
+        else:
 
-        print("{}{}".format(x, y))
+            print("{}{}".format(x, y))
